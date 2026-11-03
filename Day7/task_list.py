@@ -1,5 +1,3 @@
-# task_list.py
-
 def show_menu():
     print("\n--- Task Manager Menu ---")
     print("1. Add task")
