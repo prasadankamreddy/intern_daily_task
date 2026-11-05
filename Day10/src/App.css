@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+}
+
+.header {
+    background: #172554;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-card {
+    background: white;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 60px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000020;
+}
+
+.profile-image {
+    background: #2563eb;
+    color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 20px;
+    font-size: 30px;
+}
+
+.profile-card h3 {
+    color: #2563eb;
+    margin: 10px;
+}
+
+.profile-card p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.profile-card ul {
+    list-style: none;
+    margin: 15px;
+    line-height: 1.8;
+}
+
+.profile-card a {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.footer {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-card {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
